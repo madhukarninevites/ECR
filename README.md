@@ -206,7 +206,27 @@
 	 text-align: left;
 	 margin-left: 0;
 }
- 	
+.section-title h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    background: none;
+    font-weight: 900;
+    color: #d79e4d;
+}
+.default-btn{
+	    pointer-events: all;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d89f4f;
+    padding: 18px 30px;
+    line-height: 1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+    border: none;
+	}	
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -231,7 +251,7 @@
   </div>
 </section>
 <section class="main_sec contact-page">
-  <div class="container-fluid">
+  <div class="container">
     <div class=" ">
       <div class="row">
         <div class="col-lg-4 col-sm-6 col-md-6">
