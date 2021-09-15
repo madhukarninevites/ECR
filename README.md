@@ -38,7 +38,7 @@
 }
 .site_menu{
   width:100%; float:left;
-  margin-top: 1rem;
+  margin-top: 1rem; text-align:right;
   }  
   .site_menu ul li {
     list-style: none;
@@ -61,8 +61,7 @@
       padding: 25px 0;
   }
   .contact-page {
-	 background-color: #ccc;
-	 padding-top: 100px !important;
+ 	 padding-top: 100px !important;
 	 padding-bottom: 70px !important;
 }
  .contact-page::before {
@@ -226,7 +225,13 @@
     position: relative;
     z-index: 1;
     border: none;
-	}	
+	}
+.footer-bottom-area {
+	background-color: #252525;
+	padding:70px 0;
+	width:100%; float: left;
+}	
+	
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -336,3 +341,60 @@ Send Message
 </div>
 </div>
 </section>
+<footer class="footer-bottom-area">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="single-widgets">
+<ul class="terms">
+<li>
+<a href="#">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="#">Privacy Policy</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="single-widgets">
+<p>
+Copyright <i class="bx bx-copyright"></i>2021 Dripli. Designed By
+<a href="https://envytheme.com/" target="blank">EnvyTheme</a>
+</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="single-widgets">
+<ul class="social-icon">
+<li>
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
