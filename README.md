@@ -58,7 +58,99 @@
   .main_sec{
   background:#f2f2f2;
   width:100%;float:left;
+      padding: 25px 0;
   }
+  .contact-page {
+	 background-color: #ccc;
+	 padding-top: 100px !important;
+	 padding-bottom: 70px !important;
+}
+ .contact-page::before {
+	 display: none;
+}
+ .contact-page .single-contact-info {
+	 position: relative;
+	 padding-left: 0;
+	 margin-bottom: -5px;
+	 text-align: center;
+	 background-color: #f5f5f5;
+	 margin-bottom: 30px;
+	 padding: 30px;
+	 transition: all 0.5s;
+}
+ .contact-page .single-contact-info i {
+	 position: unset;
+	 margin-bottom: 15px;
+	 display: block;
+	 color: #ccc;
+	 transition: all 0.5s;
+}
+ .contact-page .single-contact-info h3 {
+	 color: #000;
+	 transition: all 0.5s;
+}
+ .contact-page .single-contact-info a {
+	 color: #000;
+	 transition: all 0.5s;
+}
+ .contact-page .single-contact-info:hover {
+	 background-color: #ccc;
+}
+ .contact-page .single-contact-info:hover i {
+	 color: #fff;
+}
+ .contact-page .single-contact-info:hover h3 {
+	 color: #fff;
+}
+ .contact-page .single-contact-info:hover a {
+	 color: #fff;
+}
+ .main-contact-area #contactForm {
+	 max-width: 1080px;
+	 margin: auto;
+	 padding: 40px;
+	 box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.08);
+	 background-color: #fff;
+}
+ .main-contact-area .form-group {
+	 margin-bottom: 30px;
+}
+ .main-contact-area .form-group label {
+	 font-size: 16px;
+	 margin-bottom: 10px;
+}
+ .main-contact-area .form-group .form-control {
+	 background-color: #fff;
+	 box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.08);
+}
+ .main-contact-area .form-group .form-control::placeholder {
+	 color: #ccc;
+}
+ .main-contact-area .form-group.checkboxs {
+	 position: relative;
+	 max-width: 365px;
+	 margin: 0 auto 30px;
+}
+ .main-contact-area .form-group.checkboxs #chb2 {
+	 position: absolute;
+	 top: 8px;
+	 left: 0;
+}
+ .main-contact-area .form-group.checkboxs p {
+	 padding-left: 20px;
+}
+ .main-contact-area .form-group.checkboxs p a {
+	 color: #ccc;
+}
+ .main-contact-area .form-group.checkboxs p a:hover {
+	 color: #ccc;
+}
+ .main-contact-area .default-btn {
+	 text-align: center;
+	 display: table;
+	 margin: auto;
+}
+ 
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -82,12 +174,89 @@
     </div>
   </div>
 </section>
-<section class="main_sec">
+<section class="main_sec contact-page">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-        asdasd
-      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 col-md-6">
+        <div class="single-contact-info">
+        <i class="flaticon-paper-plane-2"></i>
+        <h3>Email Us:</h3>
+        <a href="mailto:hello@dripli.com">hello@dripli.com</a>
+        </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-md-6">
+        <div class="single-contact-info">
+        <i class="flaticon-customer-service"></i>
+        <h3>Call Us:</h3>
+        <a href="tel:+(123)-1800-567-8990">Tel. + (123) 1800-567-8990</a>
+        </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-md-6 offset-md-3 offset-lg-0 offset-md-0">
+        <div class="single-contact-info">
+        <i class="flaticon-file"></i>
+        <h3>Our Address:</h3>
+        <a href="#">New York - 106010 Hudson Yards</a>
+        </div>
+        </div>
+        </div>
     </div>
   </div>
-</section>  
+</section>
+<section class="main-contact-area pb-100">
+<div class="container">
+<div class="section-title">
+<span class="top-title">Contact Us</span>
+<h2>Drop Us A Message For Any Query</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui quam dolore repudiandae itaque, iste, corporis dolor incidunt rerum iure</p>
+</div>
+<div class="contact-wrap">
+<form id="contactForm" novalidate="true">
+<div class="row">
+<div class="col-lg-6 col-sm-6">
+<div class="form-group">
+<label>Your Name</label>
+<input type="text" name="name" id="name" class="form-control" required="" data-error="Please enter your name">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-sm-6">
+<div class="form-group">
+<label>Your Email</label>
+<input type="email" name="email" id="email" class="form-control" required="" data-error="Please enter your email">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-sm-6">
+<div class="form-group">
+<label>Your Phone</label>
+<input type="text" name="phone_number" id="phone_number" required="" data-error="Please enter your number" class="form-control">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-sm-6">
+<div class="form-group">
+<label>Your Subject</label>
+<input type="text" name="msg_subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<div class="form-group">
+<label>Your Message</label>
+<textarea name="message" class="form-control" id="message" cols="30" rows="5" required="" data-error="Write your message"></textarea>
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<button type="submit" class="default-btn page-btn disabled" style="pointer-events: all; cursor: pointer;">
+Send Message
+</button>
+<div id="msgSubmit" class="h3 text-center hidden"></div>
+<div class="clearfix"></div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
