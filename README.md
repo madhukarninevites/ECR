@@ -7,6 +7,12 @@
   .logo_box{
   width:150px; float:left;
   }
+  .logo_box img{
+   box-shadow: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
 </style>
 <link href="https://raw.githubusercontent.com/madhukarninevites/ECR/main/bootstrap.min.css" rel='stylesheet' type='text/css' media='all' />
 <link href="https://raw.githubusercontent.com/madhukarninevites/ECR/main/style.css" rel='stylesheet' type='text/css' media='all' />
