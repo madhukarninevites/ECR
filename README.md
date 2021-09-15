@@ -55,6 +55,10 @@
       padding-left: 20px;
     padding-right: 20px;
 }
+  .main_sec{
+  background:#f2f2f2;
+  width:100%;float:left;
+  }
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -77,5 +81,13 @@
       </div>
     </div>
   </div>
-  
 </section>
+<section class="main_sec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        asdasd
+      </div>
+    </div>
+  </div>
+</section>  
