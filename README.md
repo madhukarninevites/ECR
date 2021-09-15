@@ -227,16 +227,18 @@
     border: none;
 	}
 .footer-bottom-area {
-	background-color: #252525;
-	padding:70px 0;
-	width:100%; float: left;
+	    background-color: #252525;
+    padding: 15px 0;
+    width: 100%;
+    float: left;
+    color: #fff !important;
 }	
 .single-widgets .terms {
 	 margin-top: 5px;
 }
  .single-widgets .terms li {
 	 display: inline-block;
-	 color: #8290e4;
+	 color: #fff;
 	 padding-right: 15px;
 }
  .single-widgets .terms li:last-child {
@@ -258,8 +260,8 @@
 	 height: 2px;
 }
  .single-widgets p {
-	 text-align: center;
-	 color: #8290e4;
+	 text-align: right;
+	 color: #fff;
 	 margin-top: 5px;
 	 padding-left: 50px;
 }
