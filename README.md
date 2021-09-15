@@ -231,7 +231,39 @@
 	padding:70px 0;
 	width:100%; float: left;
 }	
-	
+.single-widgets .terms {
+	 margin-top: 5px;
+}
+ .single-widgets .terms li {
+	 display: inline-block;
+	 color: #8290e4;
+	 padding-right: 15px;
+}
+ .single-widgets .terms li:last-child {
+	 padding-right: 0;
+}
+ .single-widgets .terms li:first-child a::before {
+	 display: none;
+}
+ .single-widgets .terms li a {
+	 position: relative;
+}
+ .single-widgets .terms li a::before {
+	 content: "";
+	 position: absolute;
+	 top: 12px;
+	 left: -12px;
+	 background-color: #fe5a0e;
+	 width: 5px;
+	 height: 2px;
+}
+ .single-widgets p {
+	 text-align: center;
+	 color: #8290e4;
+	 margin-top: 5px;
+	 padding-left: 50px;
+}
+ 	
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -344,7 +376,7 @@ Send Message
 <footer class="footer-bottom-area">
 <div class="container">
 <div class="row">
-<div class="col-lg-4">
+<div class="col-lg-6">
 <div class="single-widgets">
 <ul class="terms">
 <li>
@@ -356,45 +388,14 @@ Send Message
 </ul>
 </div>
 </div>
-<div class="col-lg-4">
+<div class="col-lg-6">
 <div class="single-widgets">
 <p>
-Copyright <i class="bx bx-copyright"></i>2021 Dripli. Designed By
-<a href="https://envytheme.com/" target="blank">EnvyTheme</a>
+All Rights Reserved, Epicenter DAO
 </p>
 </div>
 </div>
-<div class="col-lg-4">
-<div class="single-widgets">
-<ul class="social-icon">
-<li>
-<a href="#">
-<i class="fa fa-facebook"></i>
-</a>
-</li>
-<li>
-<a href="#">
-<i class="fa fa-twitter"></i>
-</a>
-</li>
-<li>
-<a href="#">
-<i class="fa fa-youtube-play"></i>
-</a>
-</li>
-<li>
-<a href="#">
-<i class="fa fa-linkedin"></i>
-</a>
-</li>
-<li>
-<a href="#">
-<i class="fa fa-instagram"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
+ 
 </div>
 </div>
 </footer>
