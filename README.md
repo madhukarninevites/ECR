@@ -295,21 +295,21 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="single-contact-info text-center">
-        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/telegram.png" width="40px" />
+        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/telegram.png" width="55px" style="box-shadow: none;" />
         <h3>Email Us:</h3>
         <a href="mailto:hello@dripli.com">hello@dripli.com</a>
         </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="single-contact-info  text-center">
-        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/contact-me.png" width="40px" />
+        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/contact-me.png" width="55px" style="box-shadow: none;" />
         <h3>Call Us:</h3>
         <a href="tel:+(123)-1800-567-8990">Tel. + (123) 1800-567-8990</a>
         </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-md-6 offset-md-3 offset-lg-0 offset-md-0">
         <div class="single-contact-info text-center">
-        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/book.png" width="40px" />
+        <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/book.png" width="55px" style="box-shadow: none;" />
         <h3>Our Address:</h3>
         <a href="#">New York - 106010 Hudson Yards</a>
         </div>
