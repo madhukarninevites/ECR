@@ -1,4 +1,7 @@
 <style>
+  @import "https://raw.githubusercontent.com/madhukarninevites/ECR/main/bootstrap.min.css";
+  @import "https://raw.githubusercontent.com/madhukarninevites/ECR/main/style.css";
+  
   #header_wrap{
       display: none;
   }
