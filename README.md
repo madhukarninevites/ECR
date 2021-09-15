@@ -297,7 +297,7 @@
         <div class="single-contact-info text-center">
         <img src="https://raw.githubusercontent.com/madhukarninevites/ECR/main/telegram.png" width="55px" style="box-shadow: none;" />
         <h3>Email Us:</h3>
-        <a href="mailto:hello@dripli.com">hello@dripli.com</a>
+        <a href="mailto:hello@epicenter.com">hello@epicenter.com</a>
         </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-md-6">
