@@ -32,10 +32,12 @@
     max-width: 100%;
     padding: 0;
 }
+  #footer_wrap {
+    background: #212121;
+    display: none;
+}
 </style>
-<link href="https://raw.githubusercontent.com/madhukarninevites/ECR/main/bootstrap.min.css" rel='stylesheet' type='text/css' media='all' />
-<link href="https://raw.githubusercontent.com/madhukarninevites/ECR/main/style.css" rel='stylesheet' type='text/css' media='all' />
-<section class="site_header">
+ <section class="site_header">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3">
