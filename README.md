@@ -36,6 +36,8 @@
     background: #212121;
     display: none;
 }
+.site_menu{
+  width:100%; float:left;}  
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -46,7 +48,15 @@
         </div>
       </div>
       <div class="col-md-9">
-      as
+        <div class="site_menu">
+          <ul>
+              <li><a href=""> WHAT IS EPICENTER?</a></li>
+              <li><a href=""> EPIC</a></li></a></li>
+              <li><a href=""> ECR</a></li>
+              <li><a href=""> EUSD</a></li>
+              <li><a href=""> CONTACT US</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
