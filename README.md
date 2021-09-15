@@ -73,7 +73,7 @@
 	 padding-left: 0;
 	 margin-bottom: -5px;
 	 text-align: center;
-	 background-color: #f5f5f5;
+	 background-color: #fff;
 	 margin-bottom: 30px;
 	 padding: 30px;
 	 transition: all 0.5s;
@@ -94,7 +94,7 @@
 	 transition: all 0.5s;
 }
  .contact-page .single-contact-info:hover {
-	 background-color: #ccc;
+	 background-color: #d79e4d;
 }
  .contact-page .single-contact-info:hover i {
 	 color: #fff;
@@ -150,7 +150,63 @@
 	 display: table;
 	 margin: auto;
 }
- 
+.main-contact-area{
+	    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 70px 0;
+	}
+.section-title {
+	 max-width: 600px;
+	 margin: 0 auto 60px;
+	 text-align: center;
+}
+ .section-title .top-title {
+	 color: #102a82;
+	 font-size: 14px;
+	 display: block;
+	 margin-top: -7px;
+	 margin-bottom: 8px;
+	 position: relative;
+	 z-index: 1;
+}
+ .section-title .top-title::before {
+	 position: absolute;
+	 width: 0;
+	 height: 0;
+	 content: "";
+	 border-top: 15px solid transparent;
+	 border-right: 15px solid #ccc;
+	 border-bottom: 15px solid transparent;
+	 border-left: 15px solid #ccc;
+	 font-size: 20px;
+	 z-index: -1;
+	 opacity: 0.2;
+	 animation: rotation 25s infinite linear;
+	 display: none;
+}
+ .section-title h2 {
+	 margin-bottom: 20px;
+	 font-size: 35px;
+}
+ .section-title p {
+	 margin-bottom: 0;
+}
+ .section-title.section-title-2 .top-title {
+	 color: #fff;
+	 z-index: 1;
+}
+ .section-title.section-title-2 h2 {
+	 color: #fff;
+}
+ .section-title.section-title-2 p {
+	 color: #e9e8e8;
+}
+ .section-title.align-style {
+	 text-align: left;
+	 margin-left: 0;
+}
+ 	
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -176,7 +232,7 @@
 </section>
 <section class="main_sec contact-page">
   <div class="container-fluid">
-    <div class="row">
+    <div class=" ">
       <div class="row">
         <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="single-contact-info">
