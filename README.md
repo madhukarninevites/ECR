@@ -15,9 +15,9 @@
       display: none;
   }
   .site_header{
-  background:rgba(0,0,0,100); width:100%; padding:60px 0; float:left;}
+  background:rgba(0,0,0,100); width:100%; padding:20px 0; float:left;}
   .logo_box{
-  width:150px; float:left;
+  width:95px; float:left;
   }
   .logo_box img{
    box-shadow: none;
@@ -37,7 +37,24 @@
     display: none;
 }
 .site_menu{
-  width:100%; float:left;}  
+  width:100%; float:left;
+  margin-top: 1rem;
+  }  
+  .site_menu ul li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+}
+  .site_menu ul li a {
+     color: #A0A0A0;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+      padding-left: 20px;
+    padding-right: 20px;
+}
 </style>
  <section class="site_header">
   <div class="container-fluid">
@@ -51,10 +68,10 @@
         <div class="site_menu">
           <ul>
               <li><a href=""> WHAT IS EPICENTER?</a></li>
-              <li><a href=""> EPIC</a></li></a></li>
+              <li><a href=""> EPIC</a></li> 
               <li><a href=""> ECR</a></li>
               <li><a href=""> EUSD</a></li>
-              <li><a href=""> CONTACT US</a></li>
+              <li><a href="" style="color: #d79e4d!important;"> CONTACT US</a></li>
           </ul>
         </div>
       </div>
